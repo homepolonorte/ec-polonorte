@@ -1,6 +1,6 @@
 {
   "name": "ec-polonorte",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "private": false,
   "main": "index.js",
@@ -10,7 +10,10 @@
     "url": "homepolonorte/ec-polonorte"
   },
   "eslintConfig": {
-    "extends":["./next", "./react"]
+    "extends": [
+      "./next",
+      "./react"
+    ]
   },
   "peerDependencies": {
     "eslint": "^8.56.0"
